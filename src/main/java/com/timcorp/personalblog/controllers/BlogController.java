@@ -21,10 +21,6 @@ public class BlogController {
     @Autowired
     private PostService postService;
 
-    @GetMapping(value = "/")
-    public String index() {
-        return "index";
-    }
     @GetMapping(value = "/posts")
     public List<Post> posts(){
         return postService.getAllPosts();
