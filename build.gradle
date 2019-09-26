@@ -23,6 +23,7 @@ dependencies {
     runtimeOnly 'org.postgresql:postgresql'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+    compile 'com.okta.spring:okta-spring-boot-starter:1.0.0'
 }
 
 dependencyManagement {
